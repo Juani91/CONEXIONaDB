@@ -12,5 +12,7 @@ namespace Discos
         public DateTime FechaLanzamiento { get; set; }
         public int CantCanciones { get; set; }
         public string UrlImagenTapa { get; set; }
+        public Estilo Estilo { get; set; }
+        public Edicion Edicion { get; set; }
     }
 }
